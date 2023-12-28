@@ -1,3 +1,10 @@
+:root{
+  --text-primary: white;
+  --text-secundary : #979797;
+  --bg-primary :#2c2c2c;
+
+
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,7 +15,9 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-
+body {
+  background-color: var(--bg-primary);
+}
 
 
 
